@@ -1,0 +1,28 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:#fff;color:#151515;font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased;font-size:16px}a{color:inherit;text-decoration-thickness:1px;text-underline-offset:5px}a:hover{color:#686868}a:focus-visible{outline:2px solid #2255d8;outline-offset:6px}.skip{position:absolute;left:20px;top:-80px;padding:12px;background:#fff;z-index:2}.skip:focus{top:12px}header{margin:0 28px;padding:25px 0;display:flex;justify-content:space-between;align-items:baseline;gap:24px}.name{font-size:25px;letter-spacing:-1px;text-decoration:none;font-weight:500}nav{display:flex;gap:30px;font-size:15px}nav a{text-decoration:none}main{padding:0 28px}.intro{display:grid;grid-template-columns:1fr 1fr;align-items:end;padding:47px 0 53px;gap:32px}h1{font-size:clamp(38px,4.4vw,68px);line-height:1.01;letter-spacing:-.055em;font-weight:500;margin:0}.intro p{font-size:clamp(18px,2vw,28px);line-height:1.22;letter-spacing:-.025em;margin:0 0 3px;justify-self:end;padding-right:7vw}.project{padding-bottom:95px}.main-still img{width:100%;height:auto;display:block;background:#111}.project-info{display:grid;grid-template-columns:1fr 1fr;gap:48px;padding:23px 0 32px}h2{font-size:clamp(26px,3vw,42px);line-height:1.1;letter-spacing:-.04em;font-weight:500;margin:0 0 14px;max-width:600px}.metadata,.role{font-size:14px;line-height:1.5;margin:4px 0;color:#555}.watch{display:inline-block;margin-top:20px;font-size:16px}.watch span{margin-left:8px}.description{font-size:clamp(18px,1.7vw,24px);line-height:1.38;letter-spacing:-.018em;margin:1px 0 0;max-width:690px}.support-stills{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}.support-stills img{width:100%;height:auto;display:block;background:#111}.about{border-top:1px solid #222;display:grid;grid-template-columns:1fr 1fr;gap:48px;padding:32px 0 85px}.about h2{font-size:clamp(34px,4.4vw,64px)}.bio p{font-size:20px;line-height:1.5;letter-spacing:-.02em;margin:0 0 25px}.bio .availability{font-size:16px;line-height:1.5;margin-top:38px}.contact{display:flex;flex-wrap:wrap;gap:16px 30px;line-height:1.8}footer{border-top:1px solid #ccc;margin:0 28px;padding:21px 0 28px;display:flex;justify-content:space-between;font-size:14px;color:#555}@media(min-width:1800px){body{max-width:2000px;margin:auto}}@media(max-width:700px){header{margin:0 16px;padding:21px 0;gap:16px;align-items:center}.name{font-size:22px}nav{gap:15px;font-size:14px}nav a:last-child{display:none}main{padding:0 16px}.intro{grid-template-columns:1fr;gap:23px;padding:27px 0 32px}.intro p{justify-self:start;font-size:18px;padding:0}.desktop-break{display:none}h1{font-size:44px}.project-info{grid-template-columns:1fr;gap:24px;padding:19px 0 24px}h2{font-size:30px;max-width:480px}.description{font-size:18px}.support-stills{gap:10px;grid-template-columns:1fr}.project{padding-bottom:58px}.about{grid-template-columns:1fr;gap:16px;padding:26px 0 48px}.bio p{font-size:18px}.bio .availability{margin-top:26px}.contact{display:grid;gap:10px;overflow-wrap:anywhere}footer{margin:0 16px;padding-bottom:22px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+:root{color-scheme:dark}
+body{background:#171717;color:#ECEBE8;font-family:"Neue Haas Grotesk Text Pro","Neue Haas Grotesk Text","Neue Haas Grotesk","Helvetica Neue",Helvetica,Arial,sans-serif;font-synthesis:none}
+.name{font-size:25px;font-weight:500;letter-spacing:-.025em}
+nav{font-size:14px}.intro{display:block;padding:25px 0 36px}
+h1{font-size:clamp(32px,4vw,54px);font-weight:400;letter-spacing:-.025em;line-height:1.16}
+h2{font-size:clamp(25px,2.7vw,39px);font-weight:400;letter-spacing:-.025em;line-height:1.2;overflow-wrap:anywhere}
+.metadata,.role{font-size:14px;color:#bdbcb9;line-height:1.65}
+.description{font-size:clamp(17px,1.5vw,21px);letter-spacing:0;line-height:1.55}
+.bio p{font-size:18px;letter-spacing:0;line-height:1.7}.about{border-color:#555450}
+.statement{border-top:1px solid #484744;margin-top:36px;padding-top:28px}.statement h3{font-size:14px;font-weight:500;letter-spacing:.04em;margin:0 0 20px;color:#bdbcb9}
+.skip{background:#171717}a:hover{color:#c8c7c3}a:focus-visible{outline-color:#ECEBE8}
+footer{border-color:#484744;color:#bdbcb9}.contact{font-size:15px;overflow-wrap:anywhere}
+@media(max-width:700px){.name{font-size:21px}.intro{padding:18px 0 28px}h1{font-size:34px}nav{font-size:14px;gap:12px}.description,.bio p{font-size:16px}.about h2{font-size:36px}.project-info{gap:22px}.statement{margin-top:28px;padding-top:22px}}
+
+.project h2{font-weight:400}.name{font-weight:500}
+
+/* Selective tracking: compact headings, open small labels, natural body copy. */
+body{font-kerning:normal}
+.name{letter-spacing:-.035em;font-weight:500}
+.intro h1{font-size:clamp(32px,4.2vw,58px);letter-spacing:-.035em;line-height:1.12;font-weight:400;max-width:1100px}
+.project h2{letter-spacing:-.03em;font-weight:400;line-height:1.16}
+nav{letter-spacing:.025em}
+.metadata{letter-spacing:.035em}.role{letter-spacing:.015em}
+.description,.bio p{letter-spacing:normal}
+.watch{letter-spacing:.015em}
+@media(max-width:700px){.intro h1{font-size:clamp(28px,6.7vw,40px);letter-spacing:-.025em;line-height:1.16}.name{letter-spacing:-.025em}.project h2{letter-spacing:-.02em}.metadata{letter-spacing:.02em}}
